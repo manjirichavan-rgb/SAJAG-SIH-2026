@@ -10,9 +10,7 @@ The system combines a multi-sensor hardware prototype, Arduino-based data acquis
 
 ## Problem
 
-Rural and village areas require localized environmental monitoring and timely information about potential disaster-related conditions.
-
-SAJAG aims to provide an integrated platform for collecting sensor data, monitoring environmental conditions and communicating potential risks through a centralized dashboard.
+A resilient, AI-powered environmental monitoring network that provides early detection, localized intelligence, and actionable alerts for floods, forest fires, pollution events, and other environmental hazards common in India, enabling authorities and communities to shift from reactive disaster response to proactive risk prevention.
 
 ---
 
@@ -36,21 +34,24 @@ SAJAG integrates:
 
 ## System Architecture
 
-Environmental Sensors
-        ↓
-Arduino Nano
-        ↓
-Sensor Data Acquisition
-        ↓
-Wireless Communication
-        ↓
-Data Processing / Edge-AI
-        ↓
-Risk Assessment
-        ↓
-Monitoring Dashboard
-        ↓
-Alerts / Warning
+```mermaid
+flowchart TD
+    A[Environmental Sensors]
+    B[Arduino Nano]
+    C[Sensor Data Acquisition]
+    D[Wireless Communication]
+    E[Data Processing / Edge-AI]
+    F[Risk Assessment]
+    G[Monitoring Dashboard]
+    H[Alerts / Warning]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
 -----------------------
 
 ## Hardware Components 

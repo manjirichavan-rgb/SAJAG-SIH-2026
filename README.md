@@ -101,6 +101,7 @@ The software contains:
 The complete website source code is available in:
 software/website/
 
+'''text
 ## Website Project Structure
 software/website/
 │
@@ -140,7 +141,9 @@ software/website/
             ├── mockNodes.ts
             ├── sirenAudio.ts
             └── trainedTrees.json
+'''
 ----------------
+
 ## Key Features
 Environmental Monitoring
 
@@ -204,6 +207,7 @@ Node.js / TypeScript server
 Web-based monitoring dashboard
 Edge-AI / disaster monitoring models
 -----------------------------
+''' text
 ## Repository Structure
 SAJAG-SIH-2026/
 │
@@ -242,6 +246,7 @@ SAJAG-SIH-2026/
 │           ├── components/
 │           └── utils/
 │
+'''
 -----------------------------
 
 ## Smart India Hackathon 2026 – Team Information

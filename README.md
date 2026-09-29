@@ -34,24 +34,25 @@ SAJAG integrates:
 
 ## System Architecture
 
-```mermaid
-flowchart TD
-    A[Environmental Sensors]
-    B[Arduino Nano]
-    C[Sensor Data Acquisition]
-    D[Wireless Communication]
-    E[Data Processing / Edge-AI]
-    F[Risk Assessment]
-    G[Monitoring Dashboard]
-    H[Alerts / Warning]
+## System Architecture
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
+```text
+Environmental Sensors
+        ↓
+Arduino Nano
+        ↓
+Sensor Data Acquisition
+        ↓
+Wireless Communication
+        ↓
+Data Processing / Edge-AI
+        ↓
+Risk Assessment
+        ↓
+Monitoring Dashboard
+        ↓
+Alerts / Warning
+```
 -----------------------
 
 ## Hardware Components 

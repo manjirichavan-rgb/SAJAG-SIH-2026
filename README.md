@@ -101,8 +101,9 @@ The software contains:
 The complete website source code is available in:
 software/website/
 
-'''text
 ## Website Project Structure
+
+```text
 software/website/
 │
 ├── .env.example
@@ -135,13 +136,13 @@ software/website/
     │   └── HardwareIngestionModal.tsx
     │
     └── utils/
-            ├── disasterMEngine.ts
-            ├── edgeAi.ts
-            ├── mockDataAdapter.ts
-            ├── mockNodes.ts
-            ├── sirenAudio.ts
-            └── trainedTrees.json
-'''
+        ├── disasterMEngine.ts
+        ├── edgeAi.ts
+        ├── mockDataAdapter.ts
+        ├── mockNodes.ts
+        ├── sirenAudio.ts
+        └── trainedTrees.json
+```
 ----------------
 
 ## Key Features
@@ -207,8 +208,9 @@ Node.js / TypeScript server
 Web-based monitoring dashboard
 Edge-AI / disaster monitoring models
 -----------------------------
-''' text
 ## Repository Structure
+
+```text
 SAJAG-SIH-2026/
 │
 ├── README.md
@@ -246,7 +248,8 @@ SAJAG-SIH-2026/
 │           ├── components/
 │           └── utils/
 │
-'''
+└── demo/
+```
 -----------------------------
 
 ## Smart India Hackathon 2026 – Team Information

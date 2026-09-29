@@ -1,0 +1,6 @@
+{
+  "name": "SAJAG - Village Environmental Intelligence Dashboard",
+  "description": "Edge-AI Powered Environmental Intelligence & Early Warning System for Gram Panchayat and local authorities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
